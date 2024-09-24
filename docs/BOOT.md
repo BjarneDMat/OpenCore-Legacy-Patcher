@@ -66,6 +66,13 @@ If your Mac is looping back into the beginning of the setup after the first rebo
 
 ![](./images/oclp-stuck-firstreboot.png)
 
+::: note
+
+**MacPro5.1 Note**: When having installed to a USB stick, the boot process totally ignores the USB stick iff you've got an HD with a bootable macOS in one of the trays. There're several ways around this:
+1) after having bootet from the USB, mount an HD w/ the macOS you want to update on another USB port and do the upgrade
+2) instead of installing to a USB stick, install on an HD connected to a USB port. Afterwards, you can mount this HD in one of the trays, and it'll turn up normally during boot
+
+:::
 
 ::: warning
 
